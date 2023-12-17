@@ -37,7 +37,7 @@ export default function App() {
       <View style={styles.appContainer}>
         <Button
           title="Add New Goal"
-          color="#a065ec"
+          color="blue"
           onPress={startAddGoalHandler}
         />
         <GoalInput
@@ -73,6 +73,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 50,
     paddingHorizontal: 16,
+    backgroundColor: 'white'
   },
   goalsContainer: {
     flex: 5,
