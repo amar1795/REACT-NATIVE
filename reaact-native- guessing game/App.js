@@ -9,7 +9,7 @@ if (userNumber) {
   screen = (
     <GameScreen userNumber={userNumber} onGameOver={gameOverHandler} />
   );
-
+    
 
 if (gameIsOver && userNumber) {
   screen = (
